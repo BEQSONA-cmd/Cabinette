@@ -19,7 +19,7 @@ int main() {
     }
     else 
     {
-        ft_putstr_fd("\ntest: all bonus\n", file);
+        ft_putstr_fd("\ntest: all \n", file);
         ft_putstr_fd("\t$(CC) main.c libft.a\n", file);
         ft_putstr_fd("\t./a.out\n", file);
         ft_putstr_fd("\t@rm a.out\n", file);
